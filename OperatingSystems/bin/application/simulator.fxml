@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" prefHeight="746.0" prefWidth="1002.0" style="-fx-background-color: grey; -fx-background-image: url('file:C:/Users/abuqu/eclipse-workspace/OperatingSystems/src/photo1.jpeg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label layoutX="90.0" layoutY="46.0" prefHeight="54.0" prefWidth="102.0" style="-fx-font-size: 24px; -fx-text-fill: white;" text="Queu1" />
+		<Label layoutX="90.0" layoutY="132.0" prefHeight="54.0" prefWidth="102.0" style="-fx-font-size: 24px; -fx-text-fill: white;" text="Queu2" />
+		<Label layoutX="90.0" layoutY="224.0" prefHeight="54.0" prefWidth="102.0" style="-fx-font-size: 24px; -fx-text-fill: white;" text="Queu3" />
+		<TextArea fx:id="queue1" editable="false" layoutX="207.0" layoutY="38.0" prefHeight="54.0" prefWidth="631.0">
+			<font>
+				<Font name="System Bold Italic" size="16.0" />
+			</font>
+		</TextArea>
+		<TextArea fx:id="queue2" editable="false" layoutX="207.0" layoutY="132.0" prefHeight="54.0" prefWidth="631.0">
+			<font>
+				<Font name="System Bold Italic" size="16.0" />
+			</font>
+		</TextArea>
+		<TextArea fx:id="queue3" editable="false" layoutX="207.0" layoutY="224.0" prefHeight="54.0" prefWidth="631.0">
+			<font>
+				<Font name="System Bold Italic" size="16.0" />
+			</font>
+		</TextArea>
+		<Button fx:id="thirdNext" layoutX="758.0" layoutY="622.0" mnemonicParsing="false" onAction="#thirdNext" prefHeight="83.0" prefWidth="211.0" style="-fx-background-color: TEAL;" text="GantChart" textFill="WHITE">
+			<font>
+				<Font name="Forte" size="32.0" />
+			</font>
+		</Button>
+      <Label fx:id="labelcompleted1" layoutX="218.0" layoutY="465.0" prefHeight="54.0" prefWidth="619.0" style="-fx-font-size: 24px;" text="The Simulation Has Been Completed !!" textFill="#ff2d2d" visible="false" />
+      <Label fx:id="labelcompleted2" layoutX="213.0" layoutY="520.0" prefHeight="54.0" prefWidth="619.0" style="-fx-font-size: 24px;" text="Press The Next Button Below" textFill="#ff2d2d" visible="false" />
+      <Button fx:id="pause" layoutX="384.0" layoutY="593.0" mnemonicParsing="false" onAction="#hold" prefHeight="112.0" prefWidth="233.0" style="-fx-background-color: DARKRED;" text="PAUSE" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="32.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="417.0" prefHeight="54.0" prefWidth="188.0" style="-fx-font-size: 24px; -fx-text-fill: white;" text="Running Proccess" />
+      <TextField fx:id="runningProccess" editable="false" layoutX="207.0" layoutY="417.0" prefHeight="54.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="506.0" prefHeight="54.0" prefWidth="188.0" style="-fx-font-size: 24px; -fx-text-fill: white; -fx-alignment: center;" text="IO Proccess" />
+      <TextField fx:id="ioProccess" editable="false" layoutX="207.0" layoutY="506.0" prefHeight="54.0" prefWidth="150.0" />
+      <Button fx:id="play" disable="true" layoutX="384.0" layoutY="593.0" mnemonicParsing="false" onAction="#play" prefHeight="112.0" prefWidth="233.0" style="-fx-background-color: DARKRED;" text="Play" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Forte" size="32.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="queue4" editable="false" layoutX="207.0" layoutY="318.0" prefHeight="54.0" prefWidth="631.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="90.0" layoutY="311.0" prefHeight="54.0" prefWidth="102.0" style="-fx-font-size: 24px; -fx-text-fill: white;" text="Queu4" />
+      <TextField fx:id="time_txt" layoutX="688.0" layoutY="452.0" text="time : " />
+	</children>
+</AnchorPane>

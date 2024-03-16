@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" prefHeight="746.0" prefWidth="1002.0" style="-fx-background-color: grey; -fx-background-image: url('file:C:/Users/abuqu/eclipse-workspace/OperatingSystems/src/photo1.jpeg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GantController">
+	<children>
+      <TextField layoutX="711.0" layoutY="116.0" prefHeight="26.0" prefWidth="100.0" />
+      <TextField layoutX="831.0" layoutY="116.0" prefHeight="26.0" prefWidth="100.0" />
+      <Label layoutX="315.0" layoutY="41.0" prefHeight="34.0" prefWidth="166.0" style="-fx-text-fill: white;" text="GANT CHART">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="703.0" layoutY="33.0" prefHeight="34.0" prefWidth="116.0" style="-fx-text-fill: white; -fx-alignment: center;" text="CPU utilization">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="823.0" layoutY="33.0" prefHeight="34.0" prefWidth="116.0" style="-fx-text-fill: white; -fx-alignment: center;" text="Avg Waiting">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="gant1_txt" layoutX="22.0" layoutY="91.0" prefHeight="76.0" prefWidth="648.0" />
+      <TextArea fx:id="gant2_txt" layoutX="22.0" layoutY="209.0" prefHeight="76.0" prefWidth="648.0" />
+      <TextArea fx:id="gant3_txt" layoutX="22.0" layoutY="328.0" prefHeight="76.0" prefWidth="648.0" />
+      <TextArea fx:id="gant4_txt" layoutX="22.0" layoutY="439.0" prefHeight="76.0" prefWidth="648.0" />
+	</children>
+</AnchorPane>
